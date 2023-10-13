@@ -1,6 +1,8 @@
 #!/bin/bash -e
 
 function finish() {
+    # to help debugging
+    set -x
     # save the return code
     rc=$?
     # allow this block to fail
